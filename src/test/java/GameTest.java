@@ -50,7 +50,7 @@ class GameTest {
     }
 
     @Test
-    public void testWhenFirstPlayerNotExist() {
+    public void testWhenPlayersNotRegistered() {
         Player roma = new Player(1,"Рома",100);
         Player vlad = new Player(2,"Влад",130);
         Game game = new Game();
@@ -64,7 +64,7 @@ class GameTest {
 
     }
     @Test
-    public void testWhenFirstPlayerNotExistOne() {
+    public void testWhenFirstPlayerNotRegistered() {
         Player roma = new Player(1,"Рома",100);
         Player vlad = new Player(2,"Влад",130);
         Game game = new Game();
@@ -78,7 +78,7 @@ class GameTest {
 
     }
     @Test
-    public void testWhenFirstPlayerNotExistOneTwo() {
+    public void testWhenSecondPlayerNotRegistered() {
         Player roma = new Player(1,"Рома",100);
         Player vlad = new Player(2,"Влад",130);
         Game game = new Game();
